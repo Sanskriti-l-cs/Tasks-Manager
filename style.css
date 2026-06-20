@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 9px;
+    height: 95%;
+    width: 95%;
+    background: linear-gradient(to top, rgb(253, 129, 146), rgb(247, 35, 116));
+    color: rgb(15, 8, 8);
+    border: 1px solid rgb(231, 105, 174);
+    border-radius: 1.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bar{
+    padding: 1px;
+    height: auto;
+    width: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    
+}
+nav{
+    height: 7%;
+    padding: 0.2%;
+    background-color: rgb(0, 5, 12);
+    color: rgb(247, 245, 245);
+    display: flex;
+    gap: 15%;
+}
+.nav-icon{
+    margin-left: 00px;
+    width: 25px;
+    cursor: pointer;
+}
+.nav-icon span{
+    display: block;
+    height: 2px;
+    background: rgb(248, 245, 245);
+    margin: 3px 0;
+}
+.add{
+    display: flex;
+    outline: 0px;
+    border: 1px solid black;
+}
+input{
+    padding: 0.2%;
+    margin-left: -70px;
+    font-size: 13px;
+    border: 1px solid ;
+    background-color: rgb(240, 238, 239);
+}
+.navie{
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.each{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.eachtask{
+    padding: 3px;
+    height: auto;
+    width: 225px;
+    font-size: 10px;
+    display: flex;
+    background-color: rgb(253, 129, 146);
+    border: 1px solid rgb(255, 56, 106);
+    border-radius: 4px;
+    position: relative;
+}
+.done-btn{
+    height: 15px;
+    font-size: smaller;
+    outline: none;
+    margin-left: 155px;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: absolute;
+}
+.tasks{
+    margin-top: 3%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+}
+.completed{
+    padding: 10px;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid rgb(233, 64, 134);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pending{
+    padding: 10px;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid rgb(233, 64, 134);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
